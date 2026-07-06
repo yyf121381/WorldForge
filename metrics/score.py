@@ -23,6 +23,10 @@ AGENT_DATA = {
         "emotion_depletion": {"rewards": [63]*10, "lengths": [20]*10},
         "meaning_crisis": {"rewards": [-45]*10, "lengths": [3.6]*10},
     },
+    "Qwen_ZeroShot": {
+        "emotion_depletion": {"rewards": [46,44,38,37,40], "lengths": [16,16,13,13,13]},
+        "meaning_crisis": {"rewards": [-47,76,-95,68,-42], "lengths": [9,19,24,16,6]},
+    },
     "Random": {
         "emotion_depletion": {"rewards": [-38]*10, "lengths": [4.6]*10},
         "meaning_crisis": {"rewards": [-15]*10, "lengths": [11]*10},
