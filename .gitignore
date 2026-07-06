@@ -1,0 +1,6 @@
+# WorldForge
+results/
+__pycache__/
+*.pyc
+.env
+*.json

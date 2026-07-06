@@ -1,0 +1,4 @@
+# WorldForge — Synthetic Decision Environment Benchmark
+# Core: pure Python, no external ML dependencies
+# Optional: LingYao bridge requires `requests` for API calls
+requests>=2.28
